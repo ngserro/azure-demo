@@ -1,15 +1,19 @@
 <html>
- <head>
-  <title>PHP Test</title>
- </head>
- <body>
+	<head>
+		<title>PHP App Test</title>
+ 	</head>
+ 	<body>
 <?php
 
-echo '<p>Azure App Service Demo</p>'; 
-echo '<p>This is version 2.0</p>'; 
+echo '<font face="arial">
+			<p></p>
+			<h1 align="center">Azure App Service Demo</h1>
+			<center>Version 2.0</center>
+		</font>';
 
+phpinfo() 
 
 ?>
 
- </body>
+	</body>
 </html>
